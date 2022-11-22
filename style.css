@@ -1,0 +1,79 @@
+*{
+    font-family: 'Times New Roman';
+}
+
+.tab-panels ul{
+    margin: 0;
+    padding: 0;
+}
+
+.tab-panels ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: rosybrown;
+    margin: 0px;
+    padding: 3px 10px;
+    border-radius: 8px 8px 0 0;
+    color: white;
+    cursor: pointer;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+.tab-panels ul li:hover{
+    background-color: blanchedalmond;
+    color: rosybrown;
+    font-weight: 500;
+}
+
+.tab-panels ul li.active{
+    background-color: blanchedalmond;
+    color: rosybrown;
+    font-weight: 500;
+}
+
+.tab-panels .panel{
+    display: none;
+    background-color: rosybrown;
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+}
+
+.tab-panels .panel.active{
+    display: block;
+}
+
+#meet-me div{
+    display: inline-block;
+}
+#blog a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+#blog a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#blog a:visited{
+    color: green;
+    text-decoration: none;
+}
+
+#connect p{
+    text-transform: capitalize;
+}
+
+#connect i{
+    text-transform: capitalize;
+    color: blanchedalmond;
+}
+
+#connect i:hover{
+    color: white;
+}
+
+#connect i:visited{
+    color: green;
+}
